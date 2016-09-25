@@ -3,6 +3,8 @@
   <head>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/core_styles.css"/>
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
@@ -19,12 +21,18 @@
         height: 100px;
         text-align: center;
       }
-      #about-me-section {
-        background-color: #666666;
-      }
     </style>
   </head>
   <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <ul class="nav navbar-nav">
+          <li>
+            <a class="nav-link" href="#">lol wut</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <div class="container">
       <div class="jumbotron">
         <h1>Vincent Pauley</h1>
@@ -34,6 +42,7 @@
       <div class="row">
         <div class="col-md-4 col-sm-12 col-xs-12 area">
           <h3>Front End Web</h3>
+          <p>My roots are in the front-end, my first job involved taking wireframes that designers (or in some case myself) created and translating them into code.</p>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12 area">
           <h3>Back End Web</h3>
@@ -89,6 +98,7 @@
       <div class="row" id="about-me-section">
         <div class="col-md-6 col-xs-12 area">
           <h2>About Me:</h2>
+          <p>Growing up just outside of Chicago Illionois, I was the kid that was constantly drawing and painting.  As I grew older and became exposed to technology I found that my true creative medium was code rather than paint.  Since the first day I wrote a "Hello World" program in python I new that software development was the path I wanted to take in life.  I have been working as a professional programmer since 2014.</p>
         </div>
         <div class="col-md-6 col-xs-12 area">
           <h2>Picture of me:</h2>
@@ -99,7 +109,9 @@
           <p>Thanks for taking the time to visit my site.</p>
         </div>
         <div class="col-sm-2">
-          <a href="#">Download Resume</a>
+          <a href="#" class="btn btn-info download-link">Download Resume
+            <span class="glyphicon glyphicon-download"></span>
+          </a>
         </div>
       </div>
     </div>
