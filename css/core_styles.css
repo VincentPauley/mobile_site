@@ -1,6 +1,17 @@
 h1 {
   color: #FFF !important;
 }
+.jumbotron {
+  background-image: url(../images/tile_background.png);
+}
+#self-summary-block {
+  background-color: #000;
+  display: inline-block;
+  max-width: 500px;
+  border-radius: 2px;
+  padding: 10px;
+  color: #CCC;
+}
 #about-me-section {
   background-color: #292929;
   color: #A8A8A8;
